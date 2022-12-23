@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+   
+    color: aliceblue;
+}
+.height{
+     min-height: 100px auto; 
+    width:200px;
+}
+body{
+    background-color: black;
+}
+.pg{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clr{
+    color:black;
+    
+}
+ .poet{
+    margin: 50px;
+    padding: 50px;
+} 
+img{
+     height: 50px;
+    width:400px; 
+    grid-area: i;
+}
+.container{
+    display: grid;
+   
+    background-color: azure;
+    grid-template-areas: 
+    "p i"
+    "p p"
+    ;
+}
+p{
+    grid-area: p;
+}
+.container-grid{
+    padding: 50px;
+    display:grid;
+    grid-template-areas: 
+    "s s s s"
+    "f1 f2 f3 f4"
+    "u u u u"
+    "ft1 ft1 ft2 ft3"
+    ;
+    
+   }
+span{
+    grid-area: s;
+}
+.flex-item1{
+    grid-area: f1;
+}
+.flex-item2{
+    grid-area: f2;
+}
+.flex-item3{
+    grid-area: f3;
+}
+.flex-item4{
+    grid-area: f4;
+}
+ul{
+    grid-area: u;
+    
+}
+.design{
+border: 2px solid rgb(81, 84, 84);;
+font-size: small;
+}
+.list-design{
+font-size: small;
+padding: 50px;
+}
+.h5{
+    border-bottom: 2px solid whitesmoke;
+   }
+ul.li{
+    padding: 50px;
+}
+.footer1{
+    grid-area: ft1;
+}
+.footer2{
+    grid-area: ft2;
+
+}
+.footer3{
+    grid-area: ft3;
+
+}
+.final-edit{
+    text-align: center;
+    border-right: 2px solid rgb(81, 84, 84);;
+    color:aliceblue;
+    
+}
+.colr{
+    background-color: black;
+    padding: 50px;
+}
+.text{
+    color: rgb(81, 84, 84);
+}
+.websites-color{
+    color:blue
+}
+.size{
+    font-size: 25px;
+    /* border-bottom: 2px solid rgb(225, 225, 225); */
+}
